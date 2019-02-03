@@ -13,6 +13,12 @@
 @end
 
 @implementation ViewController
+@synthesize label0, label1, label2, label3;
+@synthesize label4, label5, label6, label7;
+@synthesize label8, label9, label10, label11;
+@synthesize label12, label13, label14, label15;
+@synthesize buttonUp, buttonLeft, buttonRight, buttonDown;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
