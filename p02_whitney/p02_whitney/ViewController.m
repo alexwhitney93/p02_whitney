@@ -18,6 +18,8 @@
 @synthesize label8, label9, label10, label11;
 @synthesize label12, label13, label14, label15;
 @synthesize buttonUp, buttonLeft, buttonRight, buttonDown;
+NSArray *array = @[@0, @1, @2, @3];
+
 
 
 - (void)viewDidLoad {
