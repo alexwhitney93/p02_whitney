@@ -13,12 +13,12 @@
 @end
 
 @implementation ViewController
-@synthesize label0, label1, label2, label3;
-@synthesize label4, label5, label6, label7;
-@synthesize label8, label9, label10, label11;
-@synthesize label12, label13, label14, label15;
+@synthesize grid;
+@synthesize cell0, cell1, cell2, cell3;
+@synthesize cell4, cell5, cell6, cell7;
+@synthesize cell8, cell9, cell10, cell11;
+@synthesize cell12, cell13, cell14, cell15;
 @synthesize buttonUp, buttonLeft, buttonRight, buttonDown;
-NSArray *array = @[@0, @1, @2, @3];
 
 
 
@@ -33,5 +33,24 @@ NSArray *array = @[@0, @1, @2, @3];
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)moveUp:(id)sender
+{
+    
+}
+
+-(IBAction)moveLeft:(id)sender
+{
+    
+}
+
+-(IBAction)moveRight:(id)sender
+{
+    
+}
+
+-(IBAction)moveDown:(id)sender
+{
+    
+}
 
 @end

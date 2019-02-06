@@ -9,11 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-@property (nonatomic, strong) IBOutlet UILabel *label0, *label1, *label2, *label3;
-@property (nonatomic, strong) IBOutlet UILabel *label4, *label5, *label6, *label7;
-@property (nonatomic, strong) IBOutlet UILabel *label8, *label9, *label10, *label11;
-@property (nonatomic, strong) IBOutlet UILabel *label12, *label13, *label14, *label15;
+@property (nonatomic, strong) IBOutlet UICollectionView *grid;
+@property (nonatomic, strong) IBOutlet UICollectionViewCell *cell0, *cell1, *cell2, *cell3;
+@property (nonatomic, strong) IBOutlet UICollectionViewCell *cell4, *cell5, *cell6, *cell7;
+@property (nonatomic, strong) IBOutlet UICollectionViewCell *cell8, *cell9, *cell10, *cell11;
+@property (nonatomic, strong) IBOutlet UICollectionViewCell *cell12, *cell13, *cell14, *cell15;
 @property (nonatomic, strong) IBOutlet UIButton *buttonUp, *buttonLeft, *buttonRight, *buttonDown;
+@property (nonatomic, strong) NSArray *row0, *row1, *row2, *row3;
+@property (nonatomic, strong) NSArray *col0, *col1, *col2, *col3;
 
 @end
 
