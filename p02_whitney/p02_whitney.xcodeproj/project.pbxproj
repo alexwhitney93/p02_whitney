@@ -78,6 +78,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A6B43C2210CE5700480503 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				18D7CE9C2207934D009A30ED /* LaunchScreen.storyboard */,
+				18D7CE972207934D009A30ED /* Main.storyboard */,
+				18D7CE9A2207934D009A30ED /* Assets.xcassets */,
+				18D7CE912207934D009A30ED /* AppDelegate.h */,
+				18D7CE922207934D009A30ED /* AppDelegate.m */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		18A6B43E2210CF5B00480503 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		18A6B43F2210CF6400480503 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		18D7CE822207934D009A30ED = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +127,11 @@
 		18D7CE8D2207934D009A30ED /* p02_whitney */ = {
 			isa = PBXGroup;
 			children = (
-				18D7CE912207934D009A30ED /* AppDelegate.h */,
-				18D7CE922207934D009A30ED /* AppDelegate.m */,
+				18A6B43F2210CF6400480503 /* Views */,
+				18A6B43E2210CF5B00480503 /* Models */,
+				18A6B43C2210CE5700480503 /* Assets */,
 				18D7CE942207934D009A30ED /* ViewController.h */,
 				18D7CE952207934D009A30ED /* ViewController.m */,
-				18D7CE972207934D009A30ED /* Main.storyboard */,
-				18D7CE9A2207934D009A30ED /* Assets.xcassets */,
-				18D7CE9C2207934D009A30ED /* LaunchScreen.storyboard */,
 				18D7CE9F2207934D009A30ED /* Info.plist */,
 				18D7CE8E2207934D009A30ED /* Supporting Files */,
 			);
@@ -507,6 +531,7 @@
 				18D7CEBA2207934D009A30ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D7CEBB2207934D009A30ED /* Build configuration list for PBXNativeTarget "p02_whitneyTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +540,7 @@
 				18D7CEBD2207934D009A30ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D7CEBE2207934D009A30ED /* Build configuration list for PBXNativeTarget "p02_whitneyUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +549,7 @@
 				18D7CEC02207934D009A30ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
