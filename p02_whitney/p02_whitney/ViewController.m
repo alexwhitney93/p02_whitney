@@ -13,11 +13,11 @@
 @end
 
 @implementation ViewController
-@synthesize grid;
-@synthesize cell0, cell1, cell2, cell3;
-@synthesize cell4, cell5, cell6, cell7;
-@synthesize cell8, cell9, cell10, cell11;
-@synthesize cell12, cell13, cell14, cell15;
+@synthesize tf0, tf1, tf2, tf3;
+@synthesize tf4, tf5, tf6, tf7;
+@synthesize tf8, tf9, tf10, tf11;
+@synthesize tf12, tf13, tf14, tf15;
+
 @synthesize buttonUp, buttonLeft, buttonRight, buttonDown;
 
 
