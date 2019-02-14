@@ -17,7 +17,8 @@
 @synthesize tf4, tf5, tf6, tf7;
 @synthesize tf8, tf9, tf10, tf11;
 @synthesize tf12, tf13, tf14, tf15;
-
+@synthesize scoreTextField;
+@synthesize startGameButton;
 @synthesize buttonUp, buttonLeft, buttonRight, buttonDown;
 
 
