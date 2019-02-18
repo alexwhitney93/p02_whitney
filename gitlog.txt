@@ -1,0 +1,219 @@
+﻿commit c754d0267f65bb31c1a8e18f646e32641f483052
+Author: Alexander Whitney <awhitne3@bl-n26.pods.bu.int>
+Date:   Wed Feb 13 21:16:21 2019 -0500
+
+    fixed some thing
+
+ .../UserInterfaceState.xcuserstate                 | Bin 21889 -> 25551 bytes
+ .../xcdebugger/Breakpoints_v2.xcbkptlist           |   6 +--
+ p02_whitney/p02_whitney/Base.lproj/Main.storyboard |  55 ++++++++++++++-------
+ p02_whitney/p02_whitney/ViewController.h           |   2 +
+ p02_whitney/p02_whitney/ViewController.m           |   3 +-
+ 5 files changed, 45 insertions(+), 21 deletions(-)
+
+commit 56bda4f9e627d0132e9d5d434363434fc6856f5b
+Author: Alexander Whitney <awhitne3@bl-n25.pods.bu.int>
+Date:   Mon Feb 11 18:31:23 2019 -0500
+
+    updated storyboard/viewcontroller
+
+ .../UserInterfaceState.xcuserstate                 | Bin 23446 -> 21889 bytes
+ p02_whitney/p02_whitney/Base.lproj/Main.storyboard | 300 ++++++++++-----------
+ p02_whitney/p02_whitney/ViewController.h           |   9 +-
+ p02_whitney/p02_whitney/ViewController.m           |  10 +-
+ 4 files changed, 150 insertions(+), 169 deletions(-)
+
+commit b44b88c30b9ea221ee61c6d5e64e24b54d58d3ef
+Author: Alexander Whitney <awhitne3@bl-n31.pods.bu.int>
+Date:   Sun Feb 10 16:30:46 2019 -0500
+
+    added more views/models
+
+ p02_whitney/p02_whitney.xcodeproj/project.pbxproj  |  37 ++++++++++++++++++---
+ .../UserInterfaceState.xcuserstate                 | Bin 18603 -> 23446 bytes
+ 2 files changed, 32 insertions(+), 5 deletions(-)
+
+commit 936898f733bf73db6ce041c7452e04c5ef263a52
+Author: Alexander Whitney <awhitne3@bl-n35.pods.bu.int>
+Date:   Thu Feb 7 21:28:30 2019 -0500
+
+    adjusted grid/cells
+
+ .../UserInterfaceState.xcuserstate                  | Bin 31873 -> 18603 bytes
+ p02_whitney/p02_whitney/Base.lproj/Main.storyboard  |  16 ++++++++--------
+ 2 files changed, 8 insertions(+), 8 deletions(-)
+
+commit 48dfada852591b2ac1f2786ad81fd1a3c1f56598
+Author: Alexander Whitney <awhitne3@bl-n28.pods.bu.int>
+Date:   Wed Feb 6 16:30:06 2019 -0500
+
+    updated UI to include collectionView and cells
+
+ .../UserInterfaceState.xcuserstate                 | Bin 20304 -> 31873 bytes
+ .../xcdebugger/Breakpoints_v2.xcbkptlist           |   4 +-
+ p02_whitney/p02_whitney/Base.lproj/Main.storyboard | 286 ++++++++++++---------
+ p02_whitney/p02_whitney/ViewController.h           |  11 +-
+ p02_whitney/p02_whitney/ViewController.m           |  29 ++-
+ 5 files changed, 191 insertions(+), 139 deletions(-)
+
+commit e2bce1062824b39da4cf9554cab00e19f8352b9d
+Author: Alexander Whitney <awhitne3@bl-n06.pods.bu.int>
+Date:   Mon Feb 4 10:42:06 2019 -0500
+
+    arrays
+
+ .../UserInterfaceState.xcuserstate                 | Bin 17382 -> 20304 bytes
+ .../xcdebugger/Breakpoints_v2.xcbkptlist           |  23 +++++++++++++++++++++
+ p02_whitney/p02_whitney/ViewController.m           |   2 ++
+ 3 files changed, 25 insertions(+)
+
+commit b8ed539e8757c50abd8e198210481652516909f2
+Author: Alexander Whitney <awhitne3@bl-n25.pods.bu.int>
+Date:   Sun Feb 3 16:41:51 2019 -0500
+
+    add & connect buttons/labels
+
+ .../UserInterfaceState.xcuserstate                 | Bin 9507 -> 17382 bytes
+ p02_whitney/p02_whitney/Base.lproj/Main.storyboard | 169 ++++++++++++++++++++-
+ p02_whitney/p02_whitney/ViewController.h           |   6 +-
+ p02_whitney/p02_whitney/ViewController.m           |   6 +
+ 4 files changed, 176 insertions(+), 5 deletions(-)
+
+commit ff8f969234786701603f7f420071d71e5f4da28d
+Author: Alexander Whitney <awhitne3@bl-n25.pods.bu.int>
+Date:   Sun Feb 3 16:24:32 2019 -0500
+
+    initial push
+
+ p02_whitney/p02_whitney.xcodeproj/project.pbxproj  | 530 +++++++++++++++++++++
+ .../project.xcworkspace/contents.xcworkspacedata   |   7 +
+ .../UserInterfaceState.xcuserstate                 | Bin 0 -> 9507 bytes
+ .../xcschemes/p02_whitney.xcscheme                 | 111 +++++
+ .../xcschemes/xcschememanagement.plist             |  32 ++
+ p02_whitney/p02_whitney/AppDelegate.h              |  17 +
+ p02_whitney/p02_whitney/AppDelegate.m              |  51 ++
+ .../AppIcon.appiconset/Contents.json               |  68 +++
+ .../p02_whitney/Base.lproj/LaunchScreen.storyboard |  27 ++
+ p02_whitney/p02_whitney/Base.lproj/Main.storyboard |  26 +
+ p02_whitney/p02_whitney/Info.plist                 |  45 ++
+ p02_whitney/p02_whitney/ViewController.h           |  15 +
+ p02_whitney/p02_whitney/ViewController.m           |  29 ++
+ p02_whitney/p02_whitney/main.m                     |  16 +
+ p02_whitney/p02_whitneyTests/Info.plist            |  22 +
+ p02_whitney/p02_whitneyTests/p02_whitneyTests.m    |  39 ++
+ p02_whitney/p02_whitneyUITests/Info.plist          |  22 +
+ .../p02_whitneyUITests/p02_whitneyUITests.m        |  40 ++
+ 18 files changed, 1097 insertions(+)
+
+commit 5e4f99c7b3d50d457de47b08ad419ed6b0ac0213
+Author: alexwhitney93 <alexwhitney90@gmail.com>
+Date:   Fri Feb 1 10:02:49 2019 -0500
+
+    Initial commit
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+
+commit 2385dc60129e9120eb375f56b276d45d40e46c99
+Author: Whit °[*•*]° <alexwhitney90@gmail.com>
+Date:   Mon Feb 18 15:00:35 2019 -0500
+
+    final changes
+
+ app/src/main/AndroidManifest.xml                   |  2 +
+ .../main/java/com/example/p02_whitney/Game.java    | 16 +++--
+ .../java/com/example/p02_whitney/MainActivity.java |  2 +-
+ app/src/main/res/layout-v21/activity_main.xml      | 72 ++++++++++++++++++++++
+ app/src/main/res/layout/activity_game.xml          | 10 ++-
+ app/src/main/res/layout/activity_main.xml          |  2 +-
+ app/src/main/res/layout/activity_results.xml       |  6 +-
+ 7 files changed, 92 insertions(+), 18 deletions(-)
+
+commit 76119ec6a386b88463536bdad188720eb0d623a2
+Author: Whit °[*•*]° <alexwhitney90@gmail.com>
+Date:   Fri Feb 15 08:58:36 2019 -0500
+
+    working 2048
+
+ .idea/.name                                        |   1 -
+ .idea/gradle.xml                                   |   3 +
+ .idea/misc.xml                                     |   2 +-
+ app/build.gradle                                   |   1 +
+ app/src/main/AndroidManifest.xml                   |   6 +-
+ .../main/java/com/example/p02_whitney/Game.java    | 458 +++++++++++++++++++++
+ .../java/com/example/p02_whitney/MainActivity.java |  23 +-
+ .../main/java/com/example/p02_whitney/Results.java |  37 ++
+ .../com/example/p02_whitney/SwipeController.java   |  90 ++++
+ .../res/drawable-v24/ic_launcher_foreground.xml    |  12 +-
+ .../main/res/drawable/ic_launcher_background.xml   | 236 +++++++----
+ app/src/main/res/layout/activity_game.xml          |  60 +++
+ app/src/main/res/layout/activity_main.xml          |  45 +-
+ app/src/main/res/layout/activity_results.xml       |  29 ++
+ app/src/main/res/layout/content_main.xml           |  11 +-
+ app/src/main/res/menu/menu_main.xml                |   7 +-
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   4 +-
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   4 +-
+ app/src/main/res/values/colors.xml                 |   7 +-
+ app/src/main/res/values/styles.xml                 |   3 +
+ gradle.properties                                  |   4 -
+ 21 files changed, 933 insertions(+), 110 deletions(-)
+
+commit 15f7b4436b9353754159b83aa04bf90528b418a3
+Author: Whit °[*•*]° <alexwhitney90@gmail.com>
+Date:   Thu Feb 14 01:53:23 2019 -0500
+
+    initial commit
+
+ .gitignore                                         |  13 ++
+ .idea/.name                                        |   1 +
+ .idea/codeStyles/Project.xml                       |  29 ++++
+ .idea/gradle.xml                                   |  12 ++
+ .idea/misc.xml                                     |   9 ++
+ .idea/runConfigurations.xml                        |  12 ++
+ .idea/vcs.xml                                      |   6 +
+ app/.gitignore                                     |   1 +
+ app/build.gradle                                   |  29 ++++
+ app/proguard-rules.pro                             |  21 +++
+ .../p02_whitney/ExampleInstrumentedTest.java       |  26 ++++
+ app/src/main/AndroidManifest.xml                   |  24 +++
+ .../java/com/example/p02_whitney/MainActivity.java |  52 +++++++
+ .../res/drawable-v24/ic_launcher_foreground.xml    |  34 ++++
+ .../main/res/drawable/ic_launcher_background.xml   |  74 +++++++++
+ app/src/main/res/layout/activity_main.xml          |  34 ++++
+ app/src/main/res/layout/content_main.xml           |  21 +++
+ app/src/main/res/menu/menu_main.xml                |   9 ++
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   5 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   5 +
+ app/src/main/res/mipmap-hdpi/ic_launcher.png       | Bin 0 -> 2963 bytes
+ app/src/main/res/mipmap-hdpi/ic_launcher_round.png | Bin 0 -> 4905 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher.png       | Bin 0 -> 2060 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher_round.png | Bin 0 -> 2783 bytes
+ app/src/main/res/mipmap-xhdpi/ic_launcher.png      | Bin 0 -> 4490 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.png    | Bin 0 -> 6895 bytes
+ app/src/main/res/mipmap-xxhdpi/ic_launcher.png     | Bin 0 -> 6387 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.png   | Bin 0 -> 10413 bytes
+ app/src/main/res/mipmap-xxxhdpi/ic_launcher.png    | Bin 0 -> 9128 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.png  | Bin 0 -> 15132 bytes
+ app/src/main/res/values/colors.xml                 |   6 +
+ app/src/main/res/values/dimens.xml                 |   3 +
+ app/src/main/res/values/strings.xml                |   4 +
+ app/src/main/res/values/styles.xml                 |  17 ++
+ .../com/example/p02_whitney/ExampleUnitTest.java   |  17 ++
+ build.gradle                                       |  27 ++++
+ gradle.properties                                  |  19 +++
+ gradle/wrapper/gradle-wrapper.jar                  | Bin 0 -> 54329 bytes
+ gradle/wrapper/gradle-wrapper.properties           |   6 +
+ gradlew                                            | 172 +++++++++++++++++++++
+ gradlew.bat                                        |  84 ++++++++++
+ settings.gradle                                    |   1 +
+ 42 files changed, 773 insertions(+)
+
+commit 465bb1ad9a59e0c5857e18c2acbe2b9c7310d325
+Author: alexwhitney93 <alexwhitney90@gmail.com>
+Date:   Thu Feb 14 01:48:08 2019 -0500
+
+    Initial commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)

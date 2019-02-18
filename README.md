@@ -1,2 +1,1 @@
-# p02_whitney
-2048
+# p02_whitney_v2
